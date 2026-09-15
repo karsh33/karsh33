@@ -62,6 +62,7 @@ Full-stack app with a React frontend and Django REST Framework backend, PostgreS
 # 🎓 Education
 
 **MS in Computer Science** — State University of New York at Binghamton, USA *(Aug 2024 – May 2026)* — GPA: 3.7/4.0
+
 **BTech in Computer Science** — MIT World Peace University, India *(Jul 2019 – Jul 2023)* — GPA: 9.0/10.0
 
 ---
