@@ -1,5 +1,5 @@
 # 💫 About Me:
-Full Stack Developer with 4+ years of experience building scalable web applications using Java, Spring Boot, React, and Angular. I work on microservices, REST APIs, and secure backend systems with Spring Security, OAuth 2.0, and JWT. Comfortable across PostgreSQL, Docker, Kubernetes, and event-driven systems with Kafka. Also dabble in AI/ML — RAG pipelines, LangChain, and prompt engineering.
+Full Stack Developer with years of experience building scalable web applications using Java, Spring Boot, React, and Angular. I work on microservices, REST APIs, and secure backend systems with Spring Security, OAuth 2.0, and JWT. Comfortable across PostgreSQL, Docker, Kubernetes, and event-driven systems with Kafka. Also dabble in AI/ML — RAG pipelines, LangChain, and prompt engineering.
 
 
 ## 🌐 Socials:
