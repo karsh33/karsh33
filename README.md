@@ -29,7 +29,7 @@ Full Stack Developer with years of experience building scalable web applications
 
 # 💼 Experience
 
-**Full Stack Developer** — DXC Technology, USA *(Jan 2026 – May 2026)*
+**Full Stack Developer** — DXC Technology, USA *(Jan 2026 – Present)*
 - Built Java 17 / Spring Boot microservices with REST APIs, Hibernate, and Spring Data JPA
 - Implemented Spring Security with OAuth 2.0 and JWT authentication
 - Built responsive UIs with React, TypeScript, HTML5, and CSS
