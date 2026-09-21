@@ -1,9 +1,15 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=6DB33F&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Java+%7C+Spring+Boot+%7C+React+%7C+Angular;Microservices%2C+Kafka%2C+Kubernetes;Shipping+AI+features+that+survive+production" alt="Typing SVG" />
+
+</div>
+
 # 💫 About Me
 
 Full Stack Developer with 4+ years building scalable web applications with Java, Spring Boot, React, and Angular. I work on microservices, REST APIs, and secure backend systems with Spring Security, OAuth 2.0, and JWT. Comfortable across PostgreSQL, Docker, Kubernetes, and event-driven systems with Kafka. I also build AI features into real products — RAG pipelines, vector search, and LLM integrations — and I care more about what ships and stays up than about what's trendy.
 
 - 🔭 Currently building RAG and enterprise search workflows in Java and Spring Boot
-- 🌱 Sharpening new tech skills and distributed systems design
+- 🌱 Sharpening tech skills and distributed systems design
 - 💬 Ask me about Spring Boot, Kafka, PostgreSQL tuning, or shipping LLM features that don't hallucinate in production
 - 📫 work.karshmattoo@gmail.com
 
@@ -51,10 +57,29 @@ Full Stack Developer with 4+ years building scalable web applications with Java,
 
 ---
 
+# 🧭 How I Work
+
+- **Failure paths first.** Retries, timeouts, and the "nothing available" response get designed before the happy path. Four years on systems taught me that a silent failure is worse than a loud one.
+- **The database is the product.** Most latency problems I've fixed were schema and index problems wearing a caching costume.
+- **AI with a seatbelt.** I've shipped RAG and LLM features to production. I also write the evals, the guardrails, and the fallback for when the model is confidently wrong.
+- **Code review is where I learn.** I'd rather have a bruising review than a quiet merge.
+
+---
+
 # 🚀 Projects
 
 **[Smart Scheduler](https://github.com/karsh33/Smart-Scheduler)** — Distributed Resource Optimization Platform
 Flutter client, Node.js/Express gateway, and a Python FastAPI optimization engine over PostgreSQL. The engine detects interval conflicts and assigns rooms by priority and capacity, so double-bookings can't happen. 12 REST endpoints secured with JWT, bcrypt, and Google OAuth, plus WebSocket updates and an analytics dashboard.
+
+```mermaid
+flowchart LR
+    A[Flutter Client] -->|REST + JWT| B[Node.js / Express Gateway]
+    B -->|SQL| C[(PostgreSQL)]
+    B -->|cache| D[(Redis)]
+    B -->|POST /optimize| E[Python FastAPI<br/>Optimization Engine]
+    E -->|conflict-free slot<br/>ranked by priority + capacity| B
+    B -->|WebSocket| A
+```
 
 **[Employee Attrition Prediction System](https://github.com/karsh33/EmployeeAttritionPrediction)**
 End-to-end ML pipeline over 1,470 employee records: preprocessing, SMOTE balancing, feature selection, and four models benchmarked. Tuned XGBoost with RandomizedSearchCV and cross-validation to 0.82 ROC-AUC and 87% accuracy, with SHAP explaining what actually drives attrition.
@@ -72,8 +97,15 @@ Full-stack event booking app with a C#/.NET and Entity Framework backend, Angula
 
 ---
 
+# 🎮 Beyond Code
+
+Former Tier 1 esports player — competed semi-pro until the schedule and the career stopped fitting together. Still play at a high rank, which is basically a live exercise in reading systems under pressure and making a call in under a second.
+
+---
+
 # 📊 GitHub Stats
 
+![](https://github-profile-trophy.vercel.app/?username=karsh33&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8)<br/>
 ![](https://github-readme-stats.shion.dev/api?username=karsh33&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=karsh33&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=karsh33&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
