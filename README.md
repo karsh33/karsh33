@@ -84,6 +84,28 @@ flowchart LR
 **[Employee Attrition Prediction System](https://github.com/karsh33/EmployeeAttritionPrediction)**
 End-to-end ML pipeline over 1,470 employee records: preprocessing, SMOTE balancing, feature selection, and four models benchmarked. Tuned XGBoost with RandomizedSearchCV and cross-validation to 0.82 ROC-AUC and 87% accuracy, with SHAP explaining what actually drives attrition.
 
+```mermaid
+flowchart LR
+    A[(IBM HR Dataset<br/>1,470 rows · 35 features)] --> B[Preprocessing<br/>drop constants · one-hot · StandardScaler]
+    B --> C[Stratified 80/20 Split]
+    C --> D[SMOTE<br/>class rebalancing]
+    D --> E[SelectKBest<br/>f_classif]
+    E --> F[Logistic Regression]
+    E --> G[Random Forest]
+    E --> H[XGBoost<br/>RandomizedSearchCV]
+    E --> I[Stacked Ensemble]
+    F & G & I --> J{Model Comparison<br/>ROC-AUC}
+    H --> J
+    J -->|best: 0.82 ROC-AUC · 87% acc| K[SHAP TreeExplainer<br/>feature attribution]
+    K --> L[Attrition drivers:<br/>overtime · stock options · job level]
+```
+| Model | Accuracy | ROC-AUC |
+|---|---|---|
+| Logistic Regression | 0.742 | 0.778 |
+| Random Forest | 0.847 | 0.805 |
+| Stacked Ensemble | 0.833 | 0.805 |
+| **XGBoost (tuned)** | **0.874** | **0.821** |
+
 **Corporate Event Management Portal**
 Full-stack event booking app with a C#/.NET and Entity Framework backend, Angular and TypeScript frontend, and SQL Server. Role-based Admin/User access, JWT and Google login, Swagger-tested APIs, and OWASP practices: input validation, CSRF protection, and SQL-injection safeguards.
 
