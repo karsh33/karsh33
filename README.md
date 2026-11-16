@@ -6,7 +6,7 @@
 
 # 💫 About Me
 
-Full Stack Developer with 10 months building scalable web applications with Java, Spring Boot, React, and Angular. I work on microservices, REST APIs, and secure backend systems with Spring Security, OAuth 2.0, and JWT. Comfortable across PostgreSQL, Docker, Kubernetes, and event-driven systems with Kafka. I also build AI features into real products, RAG pipelines, vector search, and LLM integrations and I care more about what ships and stays up than about what's trendy.
+Full Stack Developer with 4+ years building scalable web applications with Java, Spring Boot, React, and Angular. I work on microservices, REST APIs, and secure backend systems with Spring Security, OAuth 2.0, and JWT. Comfortable across PostgreSQL, Docker, Kubernetes, and event-driven systems with Kafka. I also build AI features into real products, RAG pipelines, vector search, and LLM integrations and I care more about what ships and stays up than about what's trendy.
 
 - 🔭 Currently building RAG and enterprise search workflows in Java and Spring Boot
 - 🌱 Sharpening tech skills and distributed systems design
@@ -48,7 +48,7 @@ Full Stack Developer with 10 months building scalable web applications with Java
 - Expanded automated testing in CI with JUnit, Mockito, Testcontainers, and Playwright, cutting pre-release defects 31%
 - Operated containerized services on Kubernetes with Terraform and OpenTelemetry tracing
 
-<!-- **Software Developer** — Virtusa, India *(Jan 2021 – Jul 2024)*
+ **Software Developer** — Virtusa, India *(Jan 2021 – Jul 2024)*
 - Built payment and transaction microservices handling 50K+ daily transactions with Java, Spring Boot, Oracle, and JMS
 - Delivered digital loan workflows processing 5,000+ applications/month with Angular, PostgreSQL, Kafka, and AWS
 - Improved backend response times 29% through schema design, indexing, and query tuning
